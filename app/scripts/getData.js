@@ -1,3 +1,4 @@
+// function to get reader data - pass in the token in the headers and get the list as an output
 export async function getData() {
   const headers = new Headers({
     Authorization: `Token ${process.env.READER_TOKEN}`,
